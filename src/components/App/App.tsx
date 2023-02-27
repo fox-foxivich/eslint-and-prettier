@@ -12,9 +12,9 @@ export const App: FC = () => {
     setCount((prev) => prev + 1)
   }
 
-  const focusOnDecrementButton = () => {
-    decrementButtonRef.current?.focus()
-  }
+  // const focusOnDecrementButton = () => {
+  //   decrementButtonRef.current?.focus()
+  // }
 
   return (
     <div>
@@ -25,9 +25,9 @@ export const App: FC = () => {
         </button>
         <button onClick={increment}>+</button>
       </div>
-      <div>
+      {/* <div>
         <button onClick={focusOnDecrementButton}>focus on minus</button>
-      </div>
+      </div> */}
     </div>
   )
 }
