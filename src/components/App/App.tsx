@@ -4,7 +4,7 @@ export const App: FC = () => {
   const [count, setCount] = useState<number>(0)
 
   const decrement = () => {
-       setCount((prev) => prev - 1)
+    setCount((prev) => prev - 1)
   }
 
   const increment = () => {
