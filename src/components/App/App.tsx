@@ -13,7 +13,6 @@ export const App: FC = () => {
 
   return (
     <div>
-      <div>blat: ;lfsdjfl;sjf</div>
       <div>count: {count}</div>
       <div>
         <button onClick={decrement}>-</button>
